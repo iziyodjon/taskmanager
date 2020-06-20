@@ -1,0 +1,40 @@
+header{
+    color:#fff;
+    padding:15px 0;
+    background:#7952b3;
+}
+header .logo{
+    color:#fff;
+    text-decoration: none;
+}
+.auth-block{
+    margin-top:10px;
+}
+.tasks-wrap{
+    min-height: 500px;
+    padding:30px 0;
+    position: relative;
+}
+.task-descs{
+    width:650px;
+}
+.add-task-block{
+    position: absolute;
+    top:20px;
+    right:0;
+}
+/*BreadCrumb
+-----------------------*/
+.breadcrumb-block{
+    background: #e9ecef;
+}
+
+footer{
+    width:100%;
+    position: fixed;
+    bottom:0;
+    color:#fff;
+    padding:15px 0;
+    margin:20px 0 0 0;
+    background:#1b1e21;
+}
