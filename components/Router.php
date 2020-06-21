@@ -17,8 +17,6 @@ class Router
 
         $route = explode("/", $uri);
 
-        _do($route);
-
         /*Определяем контроллер*/
         if($route[1] != '') {
             $controllerName = ucfirst($route[1]. "Controller");
